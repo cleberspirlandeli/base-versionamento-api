@@ -1,0 +1,13 @@
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\bin\Debug\netcoreapp2.2\DevIO.Data.deps.json
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\bin\Debug\netcoreapp2.2\DevIO.Data.runtimeconfig.json
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\bin\Debug\netcoreapp2.2\DevIO.Data.runtimeconfig.dev.json
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\bin\Debug\netcoreapp2.2\DevIO.Data.dll
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\bin\Debug\netcoreapp2.2\DevIO.Data.pdb
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\bin\Debug\netcoreapp2.2\DevIO.Business.dll
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\bin\Debug\netcoreapp2.2\DevIO.Business.pdb
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csprojAssemblyReference.cache
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.AssemblyInfoInputs.cache
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.AssemblyInfo.cs
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.csproj.CopyComplete
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.dll
+D:\Desenvolverdor.io\Projeto\src\DevIO.Data\obj\Debug\netcoreapp2.2\DevIO.Data.pdb
