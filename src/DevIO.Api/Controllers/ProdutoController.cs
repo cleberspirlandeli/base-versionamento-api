@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace DevIO.Api.Controllers
@@ -55,9 +57,9 @@ namespace DevIO.Api.Controllers
         { 
             if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            var novoNomeImagem = Guid.NewGuid() + "_" + produtoDto.Imagem;
+            var novoNomeImagem = Guid.NewGuid() + "_" + Regex.Replace(produtoDto.Imagem, @"\s+", "") ;
 
-            if (!UploadArquivo(produtoDto.Imagem, novoNomeImagem))
+            if (!UploadArquivo(produtoDto.ImagemUpload, novoNomeImagem))
             {
                 return CustomResponse();
             }
@@ -83,6 +85,20 @@ namespace DevIO.Api.Controllers
 
         private bool UploadArquivo(string arquivo, string imgNome)
         {
+
+            var typesArray = new[] {
+                "jpg",
+                "png",
+                "pdf"
+            };
+
+            var extensao = imgNome.Split(".")[1];
+
+            if (!Array.Exists(typesArray, type => type == extensao))
+            {
+                NotificarErro("Extensão de arquivo não permitido!");
+                return false;
+            }
 
             if (string.IsNullOrEmpty(arquivo))
             {
