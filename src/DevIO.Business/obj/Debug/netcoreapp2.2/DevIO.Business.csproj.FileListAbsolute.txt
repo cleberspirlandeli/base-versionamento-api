@@ -5,4 +5,3 @@ D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Bu
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.pdb
-D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csprojAssemblyReference.cache

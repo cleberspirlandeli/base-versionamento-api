@@ -58,11 +58,11 @@ namespace DevIO.Api.Controllers
             foreach (var erro in erros)
             {
                 var mensagemErro = erro.Exception == null ? erro.ErrorMessage : erro.Exception.Message;
-                Notificar(mensagemErro);
+                NotificarErro(mensagemErro);
             }
         }
 
-        protected void Notificar(string mensagemErro)
+        protected void NotificarErro(string mensagemErro)
         {
             _notificador.Handle(new Notificacao(mensagemErro));
         }
