@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using DevIO.Api.DTO;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DevIO.Api.Controllers
 {
@@ -22,13 +20,11 @@ namespace DevIO.Api.Controllers
         private readonly IFornecedorService _fornecedorService;
         private readonly IMapper _mapper;
 
-        public FornecedorController(
-            INotificador notificador,
-            IMapper mapper,
-            IFornecedorRepository fornecedorRepository,
-            IEnderecoRepository enderecoRepository,
-            IFornecedorService fornecedorService
-            ) : base(notificador)
+        public FornecedorController(INotificador notificador,
+                                    IMapper mapper,
+                                    IFornecedorRepository fornecedorRepository,
+                                    IEnderecoRepository enderecoRepository,
+                                    IFornecedorService fornecedorService) : base(notificador)
         {
             _mapper = mapper;
             _fornecedorRepository = fornecedorRepository;
@@ -39,10 +35,10 @@ namespace DevIO.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FornecedorDto>>> ObterTodos()
         {
-            var result = await _fornecedorRepository.ObterTodos();
-            var fornecedorDto = _mapper.Map<IEnumerable<FornecedorDto>>(result);
+            var fornecedores = await _fornecedorRepository.ObterTodos();
+            var fornecedoresDto = _mapper.Map<IEnumerable<FornecedorDto>>(fornecedores);
 
-            return CustomResponse(fornecedorDto);
+            return CustomResponse(fornecedoresDto);
         }
 
         [HttpGet("{id:guid}")]
@@ -70,7 +66,8 @@ namespace DevIO.Api.Controllers
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<FornecedorDto>> Alterar(Guid id, FornecedorDto fornecedorDto)
         {
-            if (id != fornecedorDto.Id) {
+            if (id != fornecedorDto.Id)
+            {
                 NotificarErro("O identificador informado não corresponde");
                 return CustomResponse(fornecedorDto);
             }
