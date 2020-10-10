@@ -1,0 +1,12 @@
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\bin\Release\netcoreapp2.2\DevIO.Data.deps.json
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\bin\Release\netcoreapp2.2\DevIO.Data.dll
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\bin\Release\netcoreapp2.2\DevIO.Data.pdb
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\bin\Release\netcoreapp2.2\DevIO.Business.dll
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\bin\Release\netcoreapp2.2\DevIO.Business.pdb
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\obj\Release\netcoreapp2.2\DevIO.Data.csprojAssemblyReference.cache
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\obj\Release\netcoreapp2.2\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\obj\Release\netcoreapp2.2\DevIO.Data.AssemblyInfoInputs.cache
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\obj\Release\netcoreapp2.2\DevIO.Data.AssemblyInfo.cs
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\obj\Release\netcoreapp2.2\DevIO.Data.csproj.CopyComplete
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\obj\Release\netcoreapp2.2\DevIO.Data.dll
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Data\obj\Release\netcoreapp2.2\DevIO.Data.pdb

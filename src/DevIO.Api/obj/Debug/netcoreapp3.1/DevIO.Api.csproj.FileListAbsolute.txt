@@ -1,3 +1,4 @@
+D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csprojAssemblyReference.cache
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -21,6 +22,7 @@ D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.Cod
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
@@ -125,7 +127,6 @@ D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO.Busines
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO.Data.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
-D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csprojAssemblyReference.cache
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\staticwebassets\DevIO.Api.StaticWebAssets.Manifest.cache
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\staticwebassets\DevIO.Api.StaticWebAssets.xml
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.AssemblyInfoInputs.cache
@@ -134,5 +135,7 @@ D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.Raz
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csproj.CopyComplete
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.pdb
-D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.MvcApplicationPartsAssemblyInfo.cache

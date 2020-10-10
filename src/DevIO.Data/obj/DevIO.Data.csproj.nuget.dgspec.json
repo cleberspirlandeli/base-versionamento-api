@@ -109,11 +109,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[9.2.2, )"
-            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[3.1.8, )"
             },
@@ -132,10 +132,6 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.4, )"
             }
           },
           "imports": [

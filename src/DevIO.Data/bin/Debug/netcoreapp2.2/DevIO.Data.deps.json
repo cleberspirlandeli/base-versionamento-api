@@ -9,21 +9,23 @@
       "DevIO.Data/1.0.0": {
         "dependencies": {
           "DevIO.Business": "1.0.0",
-          "FluentValidation": "9.2.2",
           "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
-          "Microsoft.EntityFrameworkCore.Tools": "3.1.8",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4"
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.8"
         },
         "runtime": {
           "DevIO.Data.dll": {}
         }
       },
-      "FluentValidation/9.2.2": {
+      "FluentValidation/8.3.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
         "runtime": {
           "lib/netstandard2.0/FluentValidation.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.2.2.0"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.3.0.0"
           }
         }
       },
@@ -344,14 +346,6 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {
             "assemblyVersion": "5.5.0.0",
             "fileVersion": "5.5.0.60624"
-          }
-        }
-      },
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design/3.1.4": {
-        "runtime": {
-          "lib/net461/dotnet-aspnet-codegenerator-design.exe": {
-            "assemblyVersion": "3.1.4.0",
-            "fileVersion": "3.100.420.40301"
           }
         }
       },
@@ -1024,7 +1018,7 @@
       },
       "DevIO.Business/1.0.0": {
         "dependencies": {
-          "FluentValidation": "9.2.2"
+          "FluentValidation": "8.3.0"
         },
         "runtime": {
           "DevIO.Business.dll": {}
@@ -1038,12 +1032,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentValidation/9.2.2": {
+    "FluentValidation/8.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y1TQrSa82i/WWPpXriEkL7uyUyECw3Uvtq66dZ8VC3pwFa9VqnZmeZaJJpz8deKhJQNDgqwU3BSptKTnyjqzuA==",
-      "path": "fluentvalidation/9.2.2",
-      "hashPath": "fluentvalidation.9.2.2.nupkg.sha512"
+      "sha512": "sha512-tQULydqVfFi68qjEw4Y+P3wM1Xp7kppLpUqPVKI6u8NDwlPVTm6V96qnLWCTO4khn7WtQ1p3ysnrNTl98fdJpA==",
+      "path": "fluentvalidation/8.3.0",
+      "hashPath": "fluentvalidation.8.3.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1240,13 +1234,6 @@
       "sha512": "sha512-cu1klZiuCwVYbXHs0QdnseuoRGG1/85VX9d1Sk0vbJlKp+HJUN/4pAS/fe2m9bTOYyIPdeCHeksMiVHgo1EfAA==",
       "path": "microsoft.identitymodel.tokens/5.5.0",
       "hashPath": "microsoft.identitymodel.tokens.5.5.0.nupkg.sha512"
-    },
-    "Microsoft.VisualStudio.Web.CodeGeneration.Design/3.1.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-V0P0dAn1/cAFs4/ioIS3/oLiGrhyb1YzgtjPiwh/TXNuFzv7zqwT/gMcQjmlKLDpzDsuq8L3VI7G41GxIC4jNw==",
-      "path": "microsoft.visualstudio.web.codegeneration.design/3.1.4",
-      "hashPath": "microsoft.visualstudio.web.codegeneration.design.3.1.4.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.5.0": {
       "type": "package",

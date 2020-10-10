@@ -1,0 +1,9 @@
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.deps.json
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.dll
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\bin\Release\netcoreapp2.2\DevIO.Business.pdb
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.csproj.CoreCompileInputs.cache
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.AssemblyInfoInputs.cache
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.dll
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.pdb
+C:\Projetos\Cursos\DesenvolvedorIO\ASP.NET Core\MVC\Projetos\04 - App Completa\MinhaAppMvcCompleta\src\DevIO.Business\obj\Release\netcoreapp2.2\DevIO.Business.csprojAssemblyReference.cache

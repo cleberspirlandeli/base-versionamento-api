@@ -6,12 +6,14 @@ using AutoMapper;
 using DevIO.Api.DTO;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevIO.Api.Controllers
 {
     [Route("api/[controller]")]
+    [AllowAnonymous]
     [ApiController]
     public class FornecedorController : MainController
     {
@@ -42,7 +44,7 @@ namespace DevIO.Api.Controllers
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<IEnumerable<FornecedorDto>>> ObterPorId(Guid id)
         {
-            var fornecedor = ObterFornecedorProdutosEndereco(id);
+            var fornecedor = await ObterFornecedorProdutosEndereco(id);
 
             if (fornecedor == null) return NotFound();
 
@@ -52,7 +54,7 @@ namespace DevIO.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<FornecedorDto>> Adicionar(FornecedorDto fornecedorDto)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorDto);
             var result = await _fornecedorService.Adicionar(fornecedor);
@@ -63,7 +65,7 @@ namespace DevIO.Api.Controllers
         }
 
 
-        [HttpPut("id:guid")]
+        [HttpPut("{id:guid}")]
         public async Task<ActionResult<FornecedorDto>> Alterar(Guid id, FornecedorDto fornecedorDto)
         {
             if (id != fornecedorDto.Id) return BadRequest();
@@ -78,7 +80,7 @@ namespace DevIO.Api.Controllers
             return Ok(fornecedor);
         }
 
-        [HttpDelete("id:guid")]
+        [HttpDelete("{id:guid}")]
         public async Task<ActionResult<FornecedorDto>> Deletar(Guid id)
         {
 
