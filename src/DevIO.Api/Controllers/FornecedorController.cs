@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DevIO.Api.DTO;
+using DevIO.Api.Extensions;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -32,7 +33,7 @@ namespace DevIO.Api.Controllers
             _fornecedorService = fornecedorService;
         }
 
-        [AllowAnonymous]
+        [ClaimsAuthorize("Fornecedor", "R")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FornecedorDto>>> ObterTodos()
         {
@@ -42,6 +43,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(fornecedoresDto);
         }
 
+        [ClaimsAuthorize("Fornecedor", "R")]
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<IEnumerable<FornecedorDto>>> ObterPorId(Guid id)
         {
@@ -52,6 +54,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(fornecedorDto);
         }
 
+        [ClaimsAuthorize("Fornecedor", "C")]
         [HttpPost]
         public async Task<ActionResult<FornecedorDto>> Adicionar(FornecedorDto fornecedorDto)
         {
@@ -63,7 +66,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(fornecedorDto);
         }
 
-
+        [ClaimsAuthorize("Fornecedor", "U")]
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<FornecedorDto>> Alterar(Guid id, FornecedorDto fornecedorDto)
         {
@@ -81,6 +84,7 @@ namespace DevIO.Api.Controllers
             return CustomResponse(fornecedorDto);
         }
 
+        [ClaimsAuthorize("Fornecedor", "D")]
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<FornecedorDto>> Deletar(Guid id)
         {
@@ -118,7 +122,6 @@ namespace DevIO.Api.Controllers
 
             return CustomResponse(enderecoDto);
         }
-
 
         private async Task<FornecedorDto> ObterFornecedorProdutosEndereco(Guid id)
         {
