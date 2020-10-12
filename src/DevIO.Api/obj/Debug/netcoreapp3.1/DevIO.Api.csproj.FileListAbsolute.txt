@@ -11,6 +11,7 @@ D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO.Api.pdb
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
