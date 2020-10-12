@@ -1,6 +1,7 @@
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.deps.json
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.pdb
+D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csprojAssemblyReference.cache
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfoInputs.cache
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
 D:\Desenvolverdor.io\Projeto\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.dll

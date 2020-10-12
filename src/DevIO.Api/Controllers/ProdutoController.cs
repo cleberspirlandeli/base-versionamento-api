@@ -86,6 +86,12 @@ namespace DevIO.Api.Controllers
         private bool UploadArquivo(string arquivo, string imgNome)
         {
 
+            if (string.IsNullOrEmpty(arquivo) || string.IsNullOrEmpty(imgNome))
+            {
+                NotificarErro("Forneça uma imagem para este produto!");
+                return false;
+            }
+
             var typesArray = new[] {
                 "jpg",
                 "png",
@@ -97,12 +103,6 @@ namespace DevIO.Api.Controllers
             if (!Array.Exists(typesArray, type => type == extensao))
             {
                 NotificarErro("Extensão de arquivo não permitido!");
-                return false;
-            }
-
-            if (string.IsNullOrEmpty(arquivo))
-            {
-                NotificarErro("Forneça uma imagem para este produto!");
                 return false;
             }
 
