@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
 
-namespace DevIO.Api.Controllers
+namespace DevIO.Api.Controllers.Common
 {
     [ApiController]
     public abstract class MainController : ControllerBase
