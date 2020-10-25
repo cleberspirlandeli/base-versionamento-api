@@ -1,4 +1,5 @@
-﻿using DevIO.Api.DTO;
+﻿using DevIO.Api.Controllers.Common;
+using DevIO.Api.DTO;
 using DevIO.Api.Extensions;
 using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Authorization;
@@ -13,9 +14,10 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevIO.Api.Controllers
+namespace DevIO.Api.Controllers.V1
 {
-    [Route("api")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}")]
     [AllowAnonymous]
     [ApiController]
     public class AuthController : MainController
