@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3IwfkHCmrrDj7yo+QXm/XNai0Cr4yqgcfO4049tr2xT2GDwzXSlD9EAcQNRjP+3cDWaxNb7lcLIOUcBSgO49+A==",
+  "dgSpecHash": "X5FgvY9bFhbwZGISH+BUqLMkrefAyKcgADQqTf/SGlg04xaIWiY225rBXijZFcoTuta10dl0wucweThSedXv6A==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,8 @@
     "C:\\Users\\simeu\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\3.1.8\\microsoft.aspnetcore.identity.ui.3.1.8.nupkg.sha512",
     "C:\\Users\\simeu\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.8\\microsoft.aspnetcore.jsonpatch.3.1.8.nupkg.sha512",
     "C:\\Users\\simeu\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.8\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.8.nupkg.sha512",
+    "C:\\Users\\simeu\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
+    "C:\\Users\\simeu\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\4.1.1\\microsoft.aspnetcore.mvc.versioning.apiexplorer.4.1.1.nupkg.sha512",
     "C:\\Users\\simeu\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\simeu\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\simeu\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
