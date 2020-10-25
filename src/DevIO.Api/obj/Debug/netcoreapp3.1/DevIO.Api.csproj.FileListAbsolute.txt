@@ -152,6 +152,12 @@ D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.Raz
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csproj.CopyComplete
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.dll
 D:\Desenvolverdor.io\Projeto\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.pdb
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csprojAssemblyReference.cache
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.AssemblyInfoInputs.cache
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.AssemblyInfo.cs
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csproj.CoreCompileInputs.cache
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -295,12 +301,6 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO.Data.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO.Business.pdb
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\DevIO.Data.pdb
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csprojAssemblyReference.cache
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.AssemblyInfoInputs.cache
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.AssemblyInfo.cs
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csproj.CoreCompileInputs.cache
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.RazorTargetAssemblyInfo.cache
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csproj.CopyComplete
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\staticwebassets\DevIO.Api.StaticWebAssets.Manifest.cache
