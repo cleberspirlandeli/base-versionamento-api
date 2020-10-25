@@ -1,8 +1,10 @@
-﻿using DevIO.Business.Intefaces;
+﻿using DevIO.Api.Extensions;
+using DevIO.Business.Intefaces;
 using DevIO.Business.Notificacoes;
 using DevIO.Business.Services;
 using DevIO.Data.Context;
 using DevIO.Data.Repository;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace DevIO.Api.Configurations
@@ -28,6 +30,11 @@ namespace DevIO.Api.Configurations
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+            #endregion
+
+            #region OTHERS
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddScoped<IUser, AspNetUser>();
             #endregion
 
             return services;
