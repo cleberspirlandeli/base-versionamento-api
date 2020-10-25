@@ -9076,23 +9076,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cleber Rezende\\.nuget\\packages\\": {},
+    "C:\\Users\\simeu\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Api\\DevIO.Api.csproj",
+      "projectUniqueName": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Api\\DevIO.Api.csproj",
       "projectName": "DevIO.Api",
-      "projectPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Api\\DevIO.Api.csproj",
-      "packagesPath": "C:\\Users\\Cleber Rezende\\.nuget\\packages\\",
-      "outputPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Api\\obj\\",
+      "projectPath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Api\\DevIO.Api.csproj",
+      "packagesPath": "C:\\Users\\simeu\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cleber Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\simeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9106,11 +9106,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Business\\DevIO.Business.csproj": {
-              "projectPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Business\\DevIO.Business.csproj"
+            "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Business\\DevIO.Business.csproj": {
+              "projectPath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Business\\DevIO.Business.csproj"
             },
-            "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Data\\DevIO.Data.csproj": {
-              "projectPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Data\\DevIO.Data.csproj"
+            "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Data\\DevIO.Data.csproj": {
+              "projectPath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Data\\DevIO.Data.csproj"
             }
           }
         }
@@ -9181,7 +9181,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
