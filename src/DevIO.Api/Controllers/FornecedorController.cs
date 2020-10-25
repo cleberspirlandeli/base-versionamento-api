@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DevIO.Api.DTO;
+using DevIO.Api.Extensions;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -53,6 +54,7 @@ namespace DevIO.Api.Controllers
         }
 
         [HttpPost]
+        [ClaimsAuthorize("Fornecedor", "Inserir")]
         public async Task<ActionResult<FornecedorDto>> Adicionar(FornecedorDto fornecedorDto)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
@@ -65,6 +67,7 @@ namespace DevIO.Api.Controllers
 
 
         [HttpPut("{id:guid}")]
+        [ClaimsAuthorize("Fornecedor", "Alterar")]
         public async Task<ActionResult<FornecedorDto>> Alterar(Guid id, FornecedorDto fornecedorDto)
         {
             if (id != fornecedorDto.Id)
@@ -82,6 +85,7 @@ namespace DevIO.Api.Controllers
         }
 
         [HttpDelete("{id:guid}")]
+        [ClaimsAuthorize("Fornecedor", "Remover")]
         public async Task<ActionResult<FornecedorDto>> Deletar(Guid id)
         {
 
@@ -105,6 +109,7 @@ namespace DevIO.Api.Controllers
         }
 
         [HttpPut("atualizar-endereco/{id:guid}")]
+        [ClaimsAuthorize("Fornecedor", "Alterar")]
         public async Task<ActionResult<IEnumerable<EnderecoDto>>> AtualizarEndereco(Guid id, EnderecoDto enderecoDto)
         {
             if (id != enderecoDto.Id)
