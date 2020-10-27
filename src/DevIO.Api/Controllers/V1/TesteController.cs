@@ -2,6 +2,7 @@
 using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 
 namespace DevIO.Api.Controllers.V1
