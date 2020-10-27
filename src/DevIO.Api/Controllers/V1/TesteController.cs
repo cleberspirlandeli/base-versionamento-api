@@ -2,9 +2,11 @@
 using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace DevIO.Api.Controllers.V1
 {
+    [Obsolete()]
     [ApiVersion("1.0", Deprecated = true)]
     [Route("api/v{version:apiVersion}/[controller]")]
     [AllowAnonymous]
