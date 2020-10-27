@@ -311,6 +311,15 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Micro
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Elmah.Io.AspNetCore.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Elmah.Io.Client.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Elmah.Io.AspNetCore.HealthChecks.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Elmah.Io.Extensions.Logging.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\HealthChecks.SqlServer.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.csproj.CoreCompileInputs.cache
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Debug\netcoreapp3.1\DevIO.Api.MvcApplicationPartsAssemblyInfo.cache
