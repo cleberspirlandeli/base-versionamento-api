@@ -27,29 +27,6 @@ Objetivo:
 <br/>
 <br/>
 
-### Estrutura
-
-```
-TODO
-Solution 
-│   X
-│   X
-│
-└───API
-│   │   X
-│   │   X
-│   │
-└───Bussiness
-│   │   X
-│   │   X
-│   │
-└───Domain
-│   │   X
-│   │   X
-│   │
-
-```
-
 <br>
 
 ## Como executar
@@ -58,7 +35,9 @@ Configurar conexão com o banco de dados no arquivo `appsettings.json`
 
 
 ```
-conection
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=YOUR_SERVER;Database=YOUR_DATABASE;Trusted_Connection=True;"
+  },
 ```
 
 <br>
