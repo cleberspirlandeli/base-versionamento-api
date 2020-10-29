@@ -1,4 +1,4 @@
-# Base Backend - API com versionamento de controllers
+# Base Backend - API com versionamento de Endpoints
 
 Objetivo:
 - Criar uma estrutura base, separando responsabilidades de negocio, infraestrutura e endpoints.
