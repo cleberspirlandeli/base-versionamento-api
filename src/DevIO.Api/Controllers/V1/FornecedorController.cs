@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using DevIO.Api.Controllers.Common;
 using DevIO.Api.DTO;
+using DevIO.Api.Extensions;
 using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -8,10 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DevIO.Api.Controllers
+namespace DevIO.Api.Controllers.V1
 {
-    [Route("api/[controller]")]
     [Authorize]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     public class FornecedorController : MainController
     {
@@ -24,7 +27,8 @@ namespace DevIO.Api.Controllers
                                     IMapper mapper,
                                     IFornecedorRepository fornecedorRepository,
                                     IEnderecoRepository enderecoRepository,
-                                    IFornecedorService fornecedorService) : base(notificador)
+                                    IFornecedorService fornecedorService,
+                                    IUser user) : base(notificador, user)
         {
             _mapper = mapper;
             _fornecedorRepository = fornecedorRepository;
@@ -53,9 +57,17 @@ namespace DevIO.Api.Controllers
         }
 
         [HttpPost]
+        [ClaimsAuthorize("Fornecedor", "Inserir")]
         public async Task<ActionResult<FornecedorDto>> Adicionar(FornecedorDto fornecedorDto)
         {
             if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+            if (UsuarioAutenticado)
+            {
+                var userId = User.GetUserId();
+                var email = User.GetUserEmail();
+                var id = UsuarioId;
+            }
 
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorDto);
             await _fornecedorService.Adicionar(fornecedor);
@@ -65,6 +77,7 @@ namespace DevIO.Api.Controllers
 
 
         [HttpPut("{id:guid}")]
+        [ClaimsAuthorize("Fornecedor", "Alterar")]
         public async Task<ActionResult<FornecedorDto>> Alterar(Guid id, FornecedorDto fornecedorDto)
         {
             if (id != fornecedorDto.Id)
@@ -82,6 +95,7 @@ namespace DevIO.Api.Controllers
         }
 
         [HttpDelete("{id:guid}")]
+        [ClaimsAuthorize("Fornecedor", "Remover")]
         public async Task<ActionResult<FornecedorDto>> Deletar(Guid id)
         {
 
@@ -105,6 +119,7 @@ namespace DevIO.Api.Controllers
         }
 
         [HttpPut("atualizar-endereco/{id:guid}")]
+        [ClaimsAuthorize("Fornecedor", "Alterar")]
         public async Task<ActionResult<IEnumerable<EnderecoDto>>> AtualizarEndereco(Guid id, EnderecoDto enderecoDto)
         {
             if (id != enderecoDto.Id)

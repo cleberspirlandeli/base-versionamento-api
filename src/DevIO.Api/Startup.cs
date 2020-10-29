@@ -1,8 +1,10 @@
 using AutoMapper;
+using DevIO.Api.Configuration;
 using DevIO.Api.Configurations;
 using DevIO.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -33,41 +35,30 @@ namespace DevIO.Api
 
             services.WebApiConfig();
 
+            services.AddSwaggerConfig();
+
             services.ResolveDependencies();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider)
         {
             if (env.IsDevelopment())
             {
-<<<<<<< Updated upstream
                 app.UseDeveloperExceptionPage();
-=======
-                //app.UseDeveloperExceptionPage();
-
                 app.UseCors("Development");
             }
             else
             {
                 app.UseHsts();
                 app.UseCors("Production");
->>>>>>> Stashed changes
             }
-
-            app.UseDeveloperExceptionPage();
 
             app.UseAuthentication();
 
             app.UseMvcConfiguration();
-<<<<<<< Updated upstream
-=======
 
             app.UseSwaggerConfig(provider);
-
-            app.UseLoggingConfiguration();
-
->>>>>>> Stashed changes
         }
     }
 }

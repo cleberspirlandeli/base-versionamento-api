@@ -9,18 +9,26 @@
     }
   },
   "profiles": {
-    "IIS Express": {
+    "IIS Dev": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/fornecedor",
+      "launchUrl": "api/v1/fornecedor",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Prod": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/v1/fornecedor",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
       }
     },
     "DevIO.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/fornecedor",
+      "launchUrl": "api/v1/fornecedor",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

@@ -9,16 +9,28 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Logging;
 
-namespace DevIO.Api.Controllers
+namespace DevIO.Api.Controllers.Common
 {
     [ApiController]
     public abstract class MainController : ControllerBase
     {
         private readonly INotificador _notificador;
+        public readonly IUser _appUser;
 
-        protected MainController(INotificador notificador)
+        protected Guid UsuarioId { get; }
+        protected bool UsuarioAutenticado { get; }
+
+        protected MainController(INotificador notificador,
+                                 IUser appUser)
         {
             _notificador = notificador;
+            _appUser = appUser;
+
+            if (appUser.IsAuthenticated())
+            {
+                UsuarioId = appUser.GetUserId();
+                UsuarioAutenticado = true;
+            }
         }
 
         // Validação de notificações de erro

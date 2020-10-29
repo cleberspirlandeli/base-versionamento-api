@@ -11,13 +11,16 @@ namespace DevIO.Business.Services
     {
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IEnderecoRepository _enderecoRepository;
+        private readonly IUser _user;
 
         public FornecedorService(IFornecedorRepository fornecedorRepository, 
                                  IEnderecoRepository enderecoRepository,
-                                 INotificador notificador) : base(notificador)
+                                 INotificador notificador,
+                                 IUser user) : base(notificador)
         {
             _fornecedorRepository = fornecedorRepository;
             _enderecoRepository = enderecoRepository;
+            _user = user;
         }
 
         public async Task<bool> Adicionar(Fornecedor fornecedor)
@@ -30,6 +33,13 @@ namespace DevIO.Business.Services
                 Notificar("Já existe um fornecedor com este documento informado.");
                 return false;
             }
+
+            if (_user.IsAuthenticated())
+            {
+                var userId = _user.GetUserId();
+                var email = _user.GetUserEmail();
+            }
+
 
             await _fornecedorRepository.Adicionar(fornecedor);
             return true;

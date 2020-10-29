@@ -10,6 +10,19 @@ namespace DevIO.Api.Configurations
         {
             services.AddControllers().AddNewtonsoftJson();
 
+            services.AddApiVersioning(options =>
+            {
+                options.AssumeDefaultVersionWhenUnspecified = true;
+                options.DefaultApiVersion = new ApiVersion(1, 0);
+                options.ReportApiVersions = true;
+            });
+
+            services.AddVersionedApiExplorer(options =>
+            {
+                options.GroupNameFormat = "'v'VVV";
+                options.SubstituteApiVersionInUrl = true;
+            });
+
             services.Configure<ApiBehaviorOptions>(options =>
             {
                 options.SuppressModelStateInvalidFilter = true;
@@ -19,9 +32,17 @@ namespace DevIO.Api.Configurations
             services.AddCors(options =>
             {
                 options.AddPolicy("Development",
-                    builder => builder.AllowAnyOrigin()
+                    builder => builder
                         .AllowAnyMethod()
+                        .AllowAnyOrigin()
                         .AllowAnyHeader());
+
+                options.AddPolicy("Production",
+                    builder => builder
+                        .WithMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                        .WithOrigins("https://meusistema.com.br", "https://meuoutrosistema.com.br")
+                        .AllowAnyHeader());
+
             });
 
             return services;
@@ -30,8 +51,6 @@ namespace DevIO.Api.Configurations
         public static IApplicationBuilder UseMvcConfiguration(this IApplicationBuilder app)
         {
             app.UseHttpsRedirection();
-
-            app.UseCors("Development");
 
             app.UseRouting();
 

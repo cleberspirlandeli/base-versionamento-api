@@ -2,75 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-<<<<<<< Updated upstream
-=======
-      "AspNetCore.HealthChecks.SqlServer/3.1.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Data.SqlClient": "1.1.1",
-          "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/HealthChecks.SqlServer.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/HealthChecks.SqlServer.dll": {}
-        }
-      },
-      "AspNetCore.HealthChecks.UI/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "AspNetCore.HealthChecks.UI.Core": "3.1.3",
-          "KubernetesClient": "2.0.29",
-          "Microsoft.EntityFrameworkCore": "3.1.3",
-          "Microsoft.EntityFrameworkCore.Design": "3.1.3",
-          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.3",
-          "Microsoft.EntityFrameworkCore.Sqlite.Design": "1.1.6",
-          "Microsoft.Extensions.Http": "3.1.3",
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/HealthChecks.UI.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/HealthChecks.UI.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "AspNetCore.HealthChecks.UI.Client/3.1.2": {
-        "type": "package",
-        "dependencies": {
-          "AspNetCore.HealthChecks.UI.Core": "3.1.3",
-          "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.3"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/HealthChecks.UI.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/HealthChecks.UI.Client.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "AspNetCore.HealthChecks.UI.Core/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.3",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
-          "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.3",
-          "System.Text.Json": "4.7.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/HealthChecks.UI.Core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/HealthChecks.UI.Core.dll": {}
-        }
-      },
->>>>>>> Stashed changes
       "AutoMapper/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -108,38 +39,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/FluentValidation.dll": {}
-        }
-      },
-      "Fractions/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.ComponentModel.TypeConverter": "4.3.0",
-          "System.Runtime.Numerics": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.1/Fractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/Fractions.dll": {}
-        }
-      },
-      "KubernetesClient/2.0.29": {
-        "type": "package",
-        "dependencies": {
-          "AutoMapper": "9.0.0",
-          "Fractions": "4.0.1",
-          "Microsoft.AspNetCore.JsonPatch": "3.0.0",
-          "Microsoft.Rest.ClientRuntime": "2.3.10",
-          "Newtonsoft.Json": "12.0.2",
-          "Portable.BouncyCastle": "1.8.1.3",
-          "YamlDotNet": "6.0.0"
-        },
-        "compile": {
-          "lib/netcoreapp2.1/KubernetesClient.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/KubernetesClient.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
@@ -261,6 +160,30 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Versioning": "4.1.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll": {}
+        }
       },
       "Microsoft.AspNetCore.Razor/2.2.0": {
         "type": "package",
@@ -594,27 +517,6 @@
           }
         }
       },
-      "Microsoft.Data.Sqlite.Core/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
-        }
-      },
-      "Microsoft.DotNet.PlatformAbstractions/3.1.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore/3.1.8": {
         "type": "package",
         "dependencies": {
@@ -661,7 +563,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -680,61 +582,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "1.1.6",
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Sqlite/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "3.1.3",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "3.1.3",
-          "Microsoft.DotNet.PlatformAbstractions": "3.1.3",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.3",
-          "Microsoft.Extensions.DependencyModel": "3.1.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Sqlite.Design/1.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.6",
-          "Microsoft.EntityFrameworkCore.Sqlite": "1.1.6",
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.Design.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.Design.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore.SqlServer/3.1.8": {
@@ -760,6 +607,17 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
@@ -846,44 +704,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-<<<<<<< Updated upstream
-=======
-      "Microsoft.Extensions.DependencyModel/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Text.Json": "4.7.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Diagnostics.HealthChecks/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "3.1.3",
-          "Microsoft.Extensions.Hosting.Abstractions": "3.1.3",
-          "Microsoft.Extensions.Options": "3.1.3"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/3.1.3": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {}
-        }
-      },
->>>>>>> Stashed changes
       "Microsoft.Extensions.FileProviders.Abstractions/3.1.8": {
         "type": "package",
         "dependencies": {
@@ -914,76 +734,6 @@
           "buildMultiTargeting/_._": {}
         }
       },
-<<<<<<< Updated upstream
-=======
-      "Microsoft.Extensions.FileProviders.Physical/2.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.0",
-          "Microsoft.Extensions.FileSystemGlobbing": "2.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {}
-        }
-      },
-      "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Hosting/2.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.1.0",
-          "Microsoft.Extensions.DependencyInjection": "2.1.0",
-          "Microsoft.Extensions.FileProviders.Physical": "2.1.0",
-          "Microsoft.Extensions.Hosting.Abstractions": "2.1.0",
-          "Microsoft.Extensions.Logging": "2.1.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Hosting.Abstractions/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.3",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.3",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.3"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Http/3.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
-          "Microsoft.Extensions.Logging": "3.1.3",
-          "Microsoft.Extensions.Options": "3.1.3"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Http.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Http.dll": {}
-        }
-      },
->>>>>>> Stashed changes
       "Microsoft.Extensions.Identity.Core/3.1.8": {
         "type": "package",
         "dependencies": {
@@ -1156,6 +906,15 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.OpenApi/1.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
       "Microsoft.VisualStudio.Web.CodeGeneration/3.1.4": {
@@ -1380,15 +1139,6 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
-      "Portable.BouncyCastle/1.8.1.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
-        }
-      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -1595,107 +1345,6 @@
           }
         }
       },
-<<<<<<< Updated upstream
-=======
-      "SQLitePCLRaw.bundle_e_sqlite3/2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.2",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.2",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.2"
-        },
-        "compile": {
-          "lib/netcoreapp3.0/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.0/SQLitePCLRaw.nativelibrary.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/SQLitePCLRaw.batteries_v2.dll": {},
-          "lib/netcoreapp3.0/SQLitePCLRaw.nativelibrary.dll": {}
-        }
-      },
-      "SQLitePCLRaw.core/2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
-        }
-      },
-      "SQLitePCLRaw.lib.e_sqlite3/2.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/alpine-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "alpine-x64"
-          },
-          "runtimes/linux-arm/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-arm"
-          },
-          "runtimes/linux-arm64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-arm64"
-          },
-          "runtimes/linux-armel/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-armel"
-          },
-          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-musl-x64"
-          },
-          "runtimes/linux-x64/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-x64"
-          },
-          "runtimes/linux-x86/native/libe_sqlite3.so": {
-            "assetType": "native",
-            "rid": "linux-x86"
-          },
-          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
-            "assetType": "native",
-            "rid": "osx-x64"
-          },
-          "runtimes/win-arm/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-arm"
-          },
-          "runtimes/win-arm64/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-arm64"
-          },
-          "runtimes/win-x64/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/e_sqlite3.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
-        }
-      },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.2": {
-        "type": "package",
-        "dependencies": {
-          "SQLitePCLRaw.core": "2.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
-        }
-      },
       "Swashbuckle.AspNetCore/5.6.3": {
         "type": "package",
         "dependencies": {
@@ -1750,7 +1399,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
->>>>>>> Stashed changes
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1831,7 +1479,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Collections.NonGeneric.dll": {}
+          "ref/netstandard1.3/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
@@ -1861,7 +1509,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.ComponentModel.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.ComponentModel.dll": {}
@@ -1884,7 +1532,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.ComponentModel.Primitives.dll": {}
+          "ref/netstandard1.0/_._": {}
         },
         "runtime": {
           "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
@@ -1910,7 +1558,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
+          "ref/netstandard1.5/_._": {}
         },
         "runtime": {
           "lib/netstandard1.5/System.ComponentModel.TypeConverter.dll": {}
@@ -3081,15 +2729,6 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json/4.7.2": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
-        }
-      },
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3244,15 +2883,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "YamlDotNet/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.3/YamlDotNet.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/YamlDotNet.dll": {}
-        }
-      },
       "DevIO.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -3285,58 +2915,6 @@
     }
   },
   "libraries": {
-<<<<<<< Updated upstream
-=======
-    "AspNetCore.HealthChecks.SqlServer/3.1.1": {
-      "sha512": "LwxrGcuxzatDdcQEPYBIONr06kFKm35svf4omUw7CJDgz/2mS9XNZgF/npwwZG0+3KM49ATjlc4tl1uJbSkHLw==",
-      "type": "package",
-      "path": "aspnetcore.healthchecks.sqlserver/3.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "aspnetcore.healthchecks.sqlserver.3.1.1.nupkg.sha512",
-        "aspnetcore.healthchecks.sqlserver.nuspec",
-        "lib/netstandard2.0/HealthChecks.SqlServer.dll"
-      ]
-    },
-    "AspNetCore.HealthChecks.UI/3.1.3": {
-      "sha512": "olRG6TSlRRTogVSDZetVvmMlOL7q7kndshN1oMF9FlwdcBo6/jAKtzZWPLHWGO+QCohJjY6cV4ZHApQ9iQdlPQ==",
-      "type": "package",
-      "path": "aspnetcore.healthchecks.ui/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "aspnetcore.healthchecks.ui.3.1.3.nupkg.sha512",
-        "aspnetcore.healthchecks.ui.nuspec",
-        "lib/netcoreapp3.1/HealthChecks.UI.dll",
-        "lib/netcoreapp3.1/HealthChecks.UI.runtimeconfig.json"
-      ]
-    },
-    "AspNetCore.HealthChecks.UI.Client/3.1.2": {
-      "sha512": "eExk1rZ9RI0n6VEN2EJKITGoHs0LCuY+potPrUZKGjpxhg8iqzkz7JoI5FNeKNb4WYA3S3JqRjf8seqczXZJRg==",
-      "type": "package",
-      "path": "aspnetcore.healthchecks.ui.client/3.1.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "aspnetcore.healthchecks.ui.client.3.1.2.nupkg.sha512",
-        "aspnetcore.healthchecks.ui.client.nuspec",
-        "lib/netcoreapp3.1/HealthChecks.UI.Client.dll"
-      ]
-    },
-    "AspNetCore.HealthChecks.UI.Core/3.1.3": {
-      "sha512": "Kx2HG+JXQzs2YR4pg0UF000xOXQgxmc1uxu7PDN/9xH3tpLR3YhM5xNDNR4edk1qGsxZMJ3KJ6VA2G82ie3s3Q==",
-      "type": "package",
-      "path": "aspnetcore.healthchecks.ui.core/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "aspnetcore.healthchecks.ui.core.3.1.3.nupkg.sha512",
-        "aspnetcore.healthchecks.ui.core.nuspec",
-        "lib/netstandard2.0/HealthChecks.UI.Core.dll"
-      ]
-    },
->>>>>>> Stashed changes
     "AutoMapper/10.0.0": {
       "sha512": "T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
       "type": "package",
@@ -3383,40 +2961,6 @@
         "lib/netstandard1.6/FluentValidation.xml",
         "lib/netstandard2.0/FluentValidation.dll",
         "lib/netstandard2.0/FluentValidation.xml"
-      ]
-    },
-    "Fractions/4.0.1": {
-      "sha512": "mpBozAyb/coTe/A8ggYBvH2W9oW1AN1YoBMT+KMFbDZCi57MfubiCkt/dFIsaAPB/e5zTLPAMmxszEaHzFUcxw==",
-      "type": "package",
-      "path": "fractions/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fractions.4.0.1.nupkg.sha512",
-        "fractions.nuspec",
-        "lib/net45/Fractions.dll",
-        "lib/net45/Fractions.pdb",
-        "lib/net45/Fractions.xml",
-        "lib/netstandard1.1/Fractions.dll",
-        "lib/netstandard1.1/Fractions.pdb",
-        "lib/netstandard1.1/Fractions.xml"
-      ]
-    },
-    "KubernetesClient/2.0.29": {
-      "sha512": "PntQ4ByFK/LTbS2uIF1QVGksZbX3zsS1jf0SO3IZUIsQjRUDRFTsZiORVr5Ef3OGKT/t2xO1PDfwWCAbF8X4TQ==",
-      "type": "package",
-      "path": "kubernetesclient/2.0.29",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "kubernetesclient.2.0.29.nupkg.sha512",
-        "kubernetesclient.nuspec",
-        "lib/net452/KubernetesClient.dll",
-        "lib/net452/KubernetesClient.xml",
-        "lib/netcoreapp2.1/KubernetesClient.dll",
-        "lib/netcoreapp2.1/KubernetesClient.xml",
-        "lib/netstandard2.0/KubernetesClient.dll",
-        "lib/netstandard2.0/KubernetesClient.xml"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
@@ -3618,6 +3162,38 @@
         "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
         "microsoft.aspnetcore.mvc.newtonsoftjson.3.1.8.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/4.1.1": {
+      "sha512": "ioFhRz5gm2Ny+t758Jab638eTG8Uui++klcH00EgBuU/BQbjkbFY+9xw/CkoAChIcrJsoQP2NKDYJ09zN5jR0g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.versioning/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.pdb",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.xml",
+        "microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.versioning.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer/4.1.1": {
+      "sha512": "o/3XuafzLe5WKKvdn0jBcyVNCw2sOQ0xqbQj5wy8mC49GLgfxH2rtJcGpdZEI3hKJgMKglC7yV24DJ+8K32pKQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.versioning.apiexplorer/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.pdb",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.xml",
+        "microsoft.aspnetcore.mvc.versioning.apiexplorer.4.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.versioning.apiexplorer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Razor/2.2.0": {
@@ -4027,40 +3603,6 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Data.SqlClient.pdb"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/3.1.3": {
-      "sha512": "7CUGlDpoS6s/JucVWBpg/hwV2Iehrd6Egbg+Rk24el5R+BZ4AlW25kY5wcsvxvqzlqXntw5hr2E9qFgQrED7fg==",
-      "type": "package",
-      "path": "microsoft.data.sqlite.core/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
-        "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.3.1.3.nupkg.sha512",
-        "microsoft.data.sqlite.core.nuspec"
-      ]
-    },
-    "Microsoft.DotNet.PlatformAbstractions/3.1.3": {
-      "sha512": "bwD01wYeN+g+Yib7XXahbRdvh5lj6PJ0si6TO6kP7n+fQsBxGy18ewJLjTZUxCwWJqX39WfQHM6idtE4QuVaiw==",
-      "type": "package",
-      "path": "microsoft.dotnet.platformabstractions/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net45/Microsoft.DotNet.PlatformAbstractions.dll",
-        "lib/net45/Microsoft.DotNet.PlatformAbstractions.xml",
-        "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll",
-        "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.xml",
-        "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll",
-        "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.xml",
-        "microsoft.dotnet.platformabstractions.3.1.3.nupkg.sha512",
-        "microsoft.dotnet.platformabstractions.nuspec"
-      ]
-    },
     "Microsoft.EntityFrameworkCore/3.1.8": {
       "sha512": "bI+yxA329qf+8efR6A35/3L2NLekcsWJOfXakA37ILUiWcX1qp/XsXmEi6SYMpMikioy0a5p0IU8gHoqSvtLaA==",
       "type": "package",
@@ -4133,63 +3675,6 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational.Design/1.1.6": {
-      "sha512": "kz7C0Ddnge16NRf4CU8GygYxOor3+oQ797//eXI+xbKlJr2ighAEkno9gOipDlym4SiFtKNNuOuBI/BDBGD7Kg==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.relational.design/1.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.dll",
-        "lib/net451/Microsoft.EntityFrameworkCore.Relational.Design.xml",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.xml",
-        "microsoft.entityframeworkcore.relational.design.1.1.6.nupkg.sha512",
-        "microsoft.entityframeworkcore.relational.design.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Sqlite/3.1.3": {
-      "sha512": "xRggLUP5O68OcpvdMorga429G9tYVb0JZOX/w779kLKbNPbCLxvr8e39xdY4EivLSBtedXr/HY2GEkKhBRilkA==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.sqlite.3.1.3.nupkg.sha512",
-        "microsoft.entityframeworkcore.sqlite.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/3.1.3": {
-      "sha512": "RI9rlHZvx5zXuY9zUrQ2yN7oKrFbgn+AA2pL/sWionvlN3sbGXr1PWt8t1vG5yDE3YqctS/ypA8gmE8LGwzOsQ==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite.core/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
-        "microsoft.entityframeworkcore.sqlite.core.3.1.3.nupkg.sha512",
-        "microsoft.entityframeworkcore.sqlite.core.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Sqlite.Design/1.1.6": {
-      "sha512": "EfZa+dhD6KhiVk83d28rGgrcAlPw4d7I1FIA6dZyxqjblQ4VbwNufn1CqZ6XDc9qIUiD5GO53vGS0/Vh9MMM2w==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite.design/1.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net451/Microsoft.EntityFrameworkCore.Sqlite.Design.dll",
-        "lib/net451/Microsoft.EntityFrameworkCore.Sqlite.Design.xml",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.Design.dll",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.Design.xml",
-        "microsoft.entityframeworkcore.sqlite.design.1.1.6.nupkg.sha512",
-        "microsoft.entityframeworkcore.sqlite.design.nuspec"
-      ]
-    },
     "Microsoft.EntityFrameworkCore.SqlServer/3.1.8": {
       "sha512": "rd50s20F84+Fe8dQX+S9RrcLuTlrbVfeZW6DBIRpJHeYtSL1kVvr0Dp0poewrk7n0KMcP6DEauiGr4YCTNqKwg==",
       "type": "package",
@@ -4226,6 +3711,33 @@
         "tools/net461/win-x86/ef.exe",
         "tools/netcoreapp2.0/any/ef.dll",
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+      "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
+      "type": "package",
+      "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.Extensions.ApiDescription.Server.props",
+        "build/Microsoft.Extensions.ApiDescription.Server.targets",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets",
+        "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+        "microsoft.extensions.apidescription.server.nuspec",
+        "tools/Newtonsoft.Json.dll",
+        "tools/dotnet-getdocument.deps.json",
+        "tools/dotnet-getdocument.dll",
+        "tools/dotnet-getdocument.runtimeconfig.json",
+        "tools/net461-x86/GetDocument.Insider.exe",
+        "tools/net461-x86/GetDocument.Insider.exe.config",
+        "tools/net461/GetDocument.Insider.exe",
+        "tools/net461/GetDocument.Insider.exe.config",
+        "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
+        "tools/netcoreapp2.1/GetDocument.Insider.dll",
+        "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
@@ -4342,63 +3854,6 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
-<<<<<<< Updated upstream
-=======
-    "Microsoft.Extensions.DependencyModel/3.1.3": {
-      "sha512": "NrcgRhryflmjz16bwr2krbQyhMstOhRi6dD39KEhUGRKVdXEKOppVVOOelxchIFVfNUGs5SEvcAm+binU09S3g==",
-      "type": "package",
-      "path": "microsoft.extensions.dependencymodel/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net451/Microsoft.Extensions.DependencyModel.dll",
-        "lib/net451/Microsoft.Extensions.DependencyModel.xml",
-        "lib/netstandard1.3/Microsoft.Extensions.DependencyModel.dll",
-        "lib/netstandard1.3/Microsoft.Extensions.DependencyModel.xml",
-        "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll",
-        "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
-        "microsoft.extensions.dependencymodel.3.1.3.nupkg.sha512",
-        "microsoft.extensions.dependencymodel.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Diagnostics.HealthChecks/3.1.3": {
-      "sha512": "3bzFIlOeaK9fMcXlrC/97qm/c4o1t8fc11jzAn5gw4kifm51npN1wMFkfZh5EKUk5mlAyn6nI1zYS+DXC91f7A==",
-      "type": "package",
-      "path": "microsoft.extensions.diagnostics.healthchecks/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
-        "microsoft.extensions.diagnostics.healthchecks.3.1.3.nupkg.sha512",
-        "microsoft.extensions.diagnostics.healthchecks.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/3.1.3": {
-      "sha512": "7bBimwDDZq5P1X7Kb7CWjHNsZBBFXxLtr6GbmnSz0K8871KRPLVNRxTeiLbzfd0IsWXGI7BcOjdqCwEOIZl2sw==",
-      "type": "package",
-      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
-        "microsoft.extensions.diagnostics.healthchecks.abstractions.3.1.3.nupkg.sha512",
-        "microsoft.extensions.diagnostics.healthchecks.abstractions.nuspec"
-      ]
-    },
->>>>>>> Stashed changes
     "Microsoft.Extensions.FileProviders.Abstractions/3.1.8": {
       "sha512": "U7ffyzrPfRDH5K3h/mBpqJVoHbppw1kc1KyHZcZeDR7b1A0FRaqMSiizGpN9IGwWs9BuN7oXIKFyviuSGBjHtQ==",
       "type": "package",
@@ -4436,80 +3891,6 @@
         "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
     },
-<<<<<<< Updated upstream
-=======
-    "Microsoft.Extensions.FileProviders.Physical/2.1.0": {
-      "sha512": "A9xLomqD4tNFqDfleapx2C14ZcSjCTzn/4Od0W/wBYdlLF2tYDJ204e75HjpWDVTkr03kgdZbM3QZ6ZeDsrBYg==",
-      "type": "package",
-      "path": "microsoft.extensions.fileproviders.physical/2.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.xml",
-        "microsoft.extensions.fileproviders.physical.2.1.0.nupkg.sha512",
-        "microsoft.extensions.fileproviders.physical.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.FileSystemGlobbing/2.1.0": {
-      "sha512": "JEwwhwbVTEXJu4W4l/FFx7FG9Fh5R8999mZl6qJImjM/LY4DxQsFYzpSkziMdY022n7TQpNUxJlH9bKZc7TqWw==",
-      "type": "package",
-      "path": "microsoft.extensions.filesystemglobbing/2.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.xml",
-        "microsoft.extensions.filesystemglobbing.2.1.0.nupkg.sha512",
-        "microsoft.extensions.filesystemglobbing.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Hosting/2.1.0": {
-      "sha512": "nqOrLtBqpwRT006vdQ2Vp87uiuYztiZcZAndFqH91ZH4SQgr8wImCVQwzUgTxx1DSrpIW765+xrZTZqsoGtvqg==",
-      "type": "package",
-      "path": "microsoft.extensions.hosting/2.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.xml",
-        "microsoft.extensions.hosting.2.1.0.nupkg.sha512",
-        "microsoft.extensions.hosting.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Hosting.Abstractions/3.1.3": {
-      "sha512": "QBVyz//TkXEGPIEhL57LyA9dnwSLRlJh5OtEqoUZUqU2INcGjPxcP99mPjngSLjIcN2IfEEfkgOwjBQDlIo4Cg==",
-      "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.3.1.3.nupkg.sha512",
-        "microsoft.extensions.hosting.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Http/3.1.3": {
-      "sha512": "QV5ODk9CFm+//AsZQSm8sH33Li1a19PTy44Ln+FCd7YnNRcxxXgZGNCdQtJpKFBpaLjfdfaGUfqWWq3LID1GdA==",
-      "type": "package",
-      "path": "microsoft.extensions.http/3.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Http.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Http.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Http.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Http.xml",
-        "microsoft.extensions.http.3.1.3.nupkg.sha512",
-        "microsoft.extensions.http.nuspec"
-      ]
-    },
->>>>>>> Stashed changes
     "Microsoft.Extensions.Identity.Core/3.1.8": {
       "sha512": "Cm9VWHLNSD9dr2u0BVNp6rk+pB020HaD7f5rxJnL3wv4aPkcIXhZEnAV5WIQHXVtzognhAaOX2e2JP8yD1yS1Q==",
       "type": "package",
@@ -4781,6 +4162,23 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.OpenApi/1.2.3": {
+      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "type": "package",
+      "path": "microsoft.openapi/1.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Microsoft.OpenApi.dll",
+        "lib/net46/Microsoft.OpenApi.pdb",
+        "lib/net46/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.2.3.nupkg.sha512",
+        "microsoft.openapi.nuspec"
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/3.1.4": {
@@ -5352,27 +4750,6 @@
         "nuget.frameworks.nuspec"
       ]
     },
-    "Portable.BouncyCastle/1.8.1.3": {
-      "sha512": "1jUpszv0ETm+hl78HKnYgY3wPzt6qRtjxaPENNrGCuB8nondbR/j75WAKdd6sxXzOzBcX07WMZhZEYc4s5jVWg==",
-      "type": "package",
-      "path": "portable.bouncycastle/1.8.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/BouncyCastle.Crypto.dll",
-        "lib/net40/BouncyCastle.Crypto.xml",
-        "lib/netstandard1.0/BouncyCastle.Crypto.dll",
-        "lib/netstandard1.0/BouncyCastle.Crypto.xml",
-        "lib/netstandard1.3/BouncyCastle.Crypto.dll",
-        "lib/netstandard1.3/BouncyCastle.Crypto.xml",
-        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/BouncyCastle.Crypto.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/BouncyCastle.Crypto.xml",
-        "portable.bouncycastle.1.8.1.3.nupkg.sha512",
-        "portable.bouncycastle.nuspec"
-      ]
-    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -5660,80 +5037,6 @@
         "version.txt"
       ]
     },
-<<<<<<< Updated upstream
-=======
-    "SQLitePCLRaw.bundle_e_sqlite3/2.0.2": {
-      "sha512": "OVPI/nh5AqfLCIKhAYqjCa6AHhc7oKApGcGM3UhMRSerFiBx58nSpGwxVFdMgjOCWZR+fA49nzsnKlWp5hFo8w==",
-      "type": "package",
-      "path": "sqlitepclraw.bundle_e_sqlite3/2.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
-        "lib/Xamarin.tvOS10/SQLitePCLRaw.batteries_v2.dll",
-        "lib/net461/SQLitePCLRaw.batteries_v2.dll",
-        "lib/net461/SQLitePCLRaw.nativelibrary.dll",
-        "lib/netcoreapp3.0/SQLitePCLRaw.batteries_v2.dll",
-        "lib/netcoreapp3.0/SQLitePCLRaw.nativelibrary.dll",
-        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
-        "sqlitepclraw.bundle_e_sqlite3.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.core/2.0.2": {
-      "sha512": "TFSBX426OelS1tkaVC254NVVlrJIe9YLhWPkEvuqJj2104QpmDmEYOhfdfDJD1E/2SmqDhoRw1ek5cQHj8olcQ==",
-      "type": "package",
-      "path": "sqlitepclraw.core/2.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.2.0.2.nupkg.sha512",
-        "sqlitepclraw.core.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.lib.e_sqlite3/2.0.2": {
-      "sha512": "S+Tsqe/M7wsc+9HeediI6UHtBKf2X586aRwhi1aBVLGe0WxkAo52O9ZxwEy/v8XMLefcrEMupd2e9CDlIT6QCw==",
-      "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net461/SQLitePCLRaw.lib.e_sqlite3.targets",
-        "lib/net461/_._",
-        "lib/netstandard2.0/_._",
-        "runtimes/alpine-x64/native/libe_sqlite3.so",
-        "runtimes/linux-arm/native/libe_sqlite3.so",
-        "runtimes/linux-arm64/native/libe_sqlite3.so",
-        "runtimes/linux-armel/native/libe_sqlite3.so",
-        "runtimes/linux-musl-x64/native/libe_sqlite3.so",
-        "runtimes/linux-x64/native/libe_sqlite3.so",
-        "runtimes/linux-x86/native/libe_sqlite3.so",
-        "runtimes/osx-x64/native/libe_sqlite3.dylib",
-        "runtimes/win-arm/native/e_sqlite3.dll",
-        "runtimes/win-arm64/native/e_sqlite3.dll",
-        "runtimes/win-x64/native/e_sqlite3.dll",
-        "runtimes/win-x86/native/e_sqlite3.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",
-        "sqlitepclraw.lib.e_sqlite3.nuspec"
-      ]
-    },
-    "SQLitePCLRaw.provider.dynamic_cdecl/2.0.2": {
-      "sha512": "ZSwacbKJUsxJEZxwT23uZVrGbaIvXcADZDz5Sr66fikO5eehdcceDncjzwzTzWfW13di8gpTpstx3WJSt/Ci5Q==",
-      "type": "package",
-      "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll",
-        "sqlitepclraw.provider.dynamic_cdecl.2.0.2.nupkg.sha512",
-        "sqlitepclraw.provider.dynamic_cdecl.nuspec"
-      ]
-    },
     "Swashbuckle.AspNetCore/5.6.3": {
       "sha512": "UkL9GU0mfaA+7RwYjEaBFvAzL8qNQhNqAeV5uaWUu/Z+fVgvK9FHkGCpTXBqSQeIHuZaIElzxnLDdIqGzuCnVg==",
       "type": "package",
@@ -5797,7 +5100,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
->>>>>>> Stashed changes
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -9419,28 +8721,6 @@
         "version.txt"
       ]
     },
-    "System.Text.Json/4.7.2": {
-      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
-      "type": "package",
-      "path": "system.text.json/4.7.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Text.Json.dll",
-        "lib/net461/System.Text.Json.xml",
-        "lib/netcoreapp3.0/System.Text.Json.dll",
-        "lib/netcoreapp3.0/System.Text.Json.xml",
-        "lib/netstandard2.0/System.Text.Json.dll",
-        "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.4.7.2.nupkg.sha512",
-        "system.text.json.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
@@ -10006,27 +9286,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "YamlDotNet/6.0.0": {
-      "sha512": "Y198v1lh0rda2G8nGZMMClvrS88JQkdqRfZEDY/OrlGjmJujSXoh6eHG23vPC3N7xdQQtl9aFb3ekj/ijWETww==",
-      "type": "package",
-      "path": "yamldotnet/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net20/YamlDotNet.dll",
-        "lib/net20/YamlDotNet.xml",
-        "lib/net35-client/YamlDotNet.dll",
-        "lib/net35-client/YamlDotNet.xml",
-        "lib/net35/YamlDotNet.dll",
-        "lib/net35/YamlDotNet.xml",
-        "lib/net45/YamlDotNet.dll",
-        "lib/net45/YamlDotNet.xml",
-        "lib/netstandard1.3/YamlDotNet.dll",
-        "lib/netstandard1.3/YamlDotNet.xml",
-        "yamldotnet.6.0.0.nupkg.sha512",
-        "yamldotnet.nuspec"
-      ]
-    },
     "DevIO.Business/1.0.0": {
       "type": "project",
       "path": "../DevIO.Business/DevIO.Business.csproj",
@@ -10040,12 +9299,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-<<<<<<< Updated upstream
-=======
-      "AspNetCore.HealthChecks.SqlServer >= 3.1.1",
-      "AspNetCore.HealthChecks.UI >= 3.1.3",
-      "AspNetCore.HealthChecks.UI.Client >= 3.1.2",
->>>>>>> Stashed changes
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
       "DevIO.Business >= 1.0.0",
       "DevIO.Data >= 1.0.0",
@@ -10053,37 +9306,33 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.8",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.8",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.8",
+      "Microsoft.AspNetCore.Mvc.Versioning >= 4.1.1",
+      "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 4.1.1",
       "Microsoft.EntityFrameworkCore >= 3.1.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
+      "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
   "packageFolders": {
-<<<<<<< Updated upstream
-    "C:\\Users\\Cleber Rezende\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
-=======
     "C:\\Users\\simeu\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
->>>>>>> Stashed changes
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Api\\DevIO.Api.csproj",
+      "projectUniqueName": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Api\\DevIO.Api.csproj",
       "projectName": "DevIO.Api",
-      "projectPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Api\\DevIO.Api.csproj",
-      "packagesPath": "C:\\Users\\Cleber Rezende\\.nuget\\packages\\",
-      "outputPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Api\\obj\\",
+      "projectPath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Api\\DevIO.Api.csproj",
+      "packagesPath": "C:\\Users\\simeu\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cleber Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\simeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -10097,11 +9346,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Business\\DevIO.Business.csproj": {
-              "projectPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Business\\DevIO.Business.csproj"
+            "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Business\\DevIO.Business.csproj": {
+              "projectPath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Business\\DevIO.Business.csproj"
             },
-            "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Data\\DevIO.Data.csproj": {
-              "projectPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Data\\DevIO.Data.csproj"
+            "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Data\\DevIO.Data.csproj": {
+              "projectPath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Data\\DevIO.Data.csproj"
             }
           }
         }
@@ -10115,21 +9364,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-<<<<<<< Updated upstream
-=======
-          "AspNetCore.HealthChecks.SqlServer": {
-            "target": "Package",
-            "version": "[3.1.1, )"
-          },
-          "AspNetCore.HealthChecks.UI": {
-            "target": "Package",
-            "version": "[3.1.3, )"
-          },
-          "AspNetCore.HealthChecks.UI.Client": {
-            "target": "Package",
-            "version": "[3.1.2, )"
-          },
->>>>>>> Stashed changes
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.0.1, )"
@@ -10150,6 +9384,14 @@
             "target": "Package",
             "version": "[3.1.8, )"
           },
+          "Microsoft.AspNetCore.Mvc.Versioning": {
+            "target": "Package",
+            "version": "[4.1.1, )"
+          },
+          "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+            "target": "Package",
+            "version": "[4.1.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.8, )"
@@ -10167,6 +9409,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.4, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[5.6.3, )"
           }
         },
         "imports": [
@@ -10187,7 +9433,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
