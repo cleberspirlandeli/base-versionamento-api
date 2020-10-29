@@ -46,11 +46,11 @@ Executar no terminal `Package Manager Console (PM)`:
 <br>
 
 ```
-update-dabase -Context CONTEXTO_1 --verbose
+update-dabase -Context ApplicationDbContext --verbose
 ```
 
 ```
-update-dabase -Context CONTEXTO_2 --verbose
+update-dabase -Context MeuDbContext --verbose
 ```
 <br>
 
