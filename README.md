@@ -79,5 +79,12 @@ update-dabase -Context CONTEXTO_2 --verbose
 <br>
 `Build >> Build Solution`
 
+<br>
+
+![alt text](https://github.com/cleberspirlandeli/versionamento-api/blob/master/images/swagger.png)
+
+<br>
 
 ![alt text](https://github.com/cleberspirlandeli/versionamento-api/blob/master/images/elmah.png)
+
+<br>
