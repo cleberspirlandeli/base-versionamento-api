@@ -50,21 +50,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-<<<<<<< Updated upstream
-=======
-            "AspNetCore.HealthChecks.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.1, )"
-            },
-            "AspNetCore.HealthChecks.UI": {
-              "target": "Package",
-              "version": "[3.1.3, )"
-            },
-            "AspNetCore.HealthChecks.UI.Client": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
->>>>>>> Stashed changes
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
