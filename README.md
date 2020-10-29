@@ -31,12 +31,14 @@ Objetivo:
 
 ## Como executar
 
+Criar banco de dados com o nome `MinhaAppMvcCore`
+
 Configurar conexão com o banco de dados no arquivo `appsettings.json`
 
 
 ```
   "ConnectionStrings": {
-    "DefaultConnection": "Server=YOUR_SERVER;Database=YOUR_DATABASE;Trusted_Connection=True;"
+    "DefaultConnection": "Server=YOUR_SERVER;Database=MinhaAppMvcCore;Trusted_Connection=True;"
   },
 ```
 
