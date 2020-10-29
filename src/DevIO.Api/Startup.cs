@@ -41,12 +41,33 @@ namespace DevIO.Api
         {
             if (env.IsDevelopment())
             {
+<<<<<<< Updated upstream
                 app.UseDeveloperExceptionPage();
+=======
+                //app.UseDeveloperExceptionPage();
+
+                app.UseCors("Development");
             }
+            else
+            {
+                app.UseHsts();
+                app.UseCors("Production");
+>>>>>>> Stashed changes
+            }
+
+            app.UseDeveloperExceptionPage();
 
             app.UseAuthentication();
 
             app.UseMvcConfiguration();
+<<<<<<< Updated upstream
+=======
+
+            app.UseSwaggerConfig(provider);
+
+            app.UseLoggingConfiguration();
+
+>>>>>>> Stashed changes
         }
     }
 }

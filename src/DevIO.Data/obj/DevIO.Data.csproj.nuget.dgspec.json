@@ -14,7 +14,8 @@
         "outputPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cleber Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,7 +78,8 @@
         "outputPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cleber Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config",

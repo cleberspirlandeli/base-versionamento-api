@@ -14,7 +14,8 @@
         "outputPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cleber Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +50,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+<<<<<<< Updated upstream
+=======
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+>>>>>>> Stashed changes
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -120,7 +136,8 @@
         "outputPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cleber Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,7 +200,8 @@
         "outputPath": "D:\\Desenvolverdor.io\\Projeto\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cleber Rezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
