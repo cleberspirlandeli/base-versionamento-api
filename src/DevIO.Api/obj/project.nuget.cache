@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ECGAus2Z0+u+NhW4RD2BT/bgaxkZP+DnBgPxgngGumRHjIYF1GA8nsnyzpf1M/pZLSFaWzLBwcCoE7CYvmjciw==",
+  "dgSpecHash": "x9gH1ZIEeMurHt+kpEGaDhyr3VuZDReRyDr2LXqm5BWMw8O8XQ5JzmyaBTTQ3hYYAAmYPtVfZdbJlQZcZWslWg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\dotnet\\versionamento-api\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
