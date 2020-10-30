@@ -16,7 +16,7 @@ namespace DevIO.Api.Controllers
 {
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
-    [AllowAnonymous]
+    [Authorize]
     [ApiController]
     public class ProdutoController : MainController
     {

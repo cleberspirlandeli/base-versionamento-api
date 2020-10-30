@@ -6,6 +6,7 @@ using DevIO.Business.Intefaces;
 using DevIO.Business.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -22,15 +23,18 @@ namespace DevIO.Api.Controllers.V1
         private readonly IEnderecoRepository _enderecoRepository;
         private readonly IFornecedorService _fornecedorService;
         private readonly IMapper _mapper;
+        private readonly ILogger _logger;
 
         public FornecedorController(INotificador notificador,
                                     IMapper mapper,
                                     IFornecedorRepository fornecedorRepository,
                                     IEnderecoRepository enderecoRepository,
                                     IFornecedorService fornecedorService,
-                                    IUser user) : base(notificador, user)
+                                    IUser user,
+                                    ILogger<FornecedorController> logger) : base(notificador, user)
         {
             _mapper = mapper;
+            _logger = logger;
             _fornecedorRepository = fornecedorRepository;
             _enderecoRepository = enderecoRepository;
             _fornecedorService = fornecedorService;
@@ -43,6 +47,7 @@ namespace DevIO.Api.Controllers.V1
             var fornecedores = await _fornecedorRepository.ObterTodos();
             var fornecedoresDto = _mapper.Map<IEnumerable<FornecedorDto>>(fornecedores);
 
+            _logger.LogInformation("Obter todos fornecedores " + User.GetUserEmail());
             return CustomResponse(fornecedoresDto);
         }
 
@@ -72,6 +77,7 @@ namespace DevIO.Api.Controllers.V1
             var fornecedor = _mapper.Map<Fornecedor>(fornecedorDto);
             await _fornecedorService.Adicionar(fornecedor);
 
+            _logger.LogInformation("Inclusão de fornecedor " + fornecedorDto.Nome);
             return CustomResponse(fornecedorDto);
         }
 

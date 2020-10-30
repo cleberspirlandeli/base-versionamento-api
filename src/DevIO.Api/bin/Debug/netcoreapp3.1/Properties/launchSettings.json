@@ -12,7 +12,7 @@
     "IIS Dev": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/v1/fornecedor",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "IIS Prod": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/v1/fornecedor",
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
@@ -28,7 +28,7 @@
     "DevIO.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/v1/fornecedor",
+      "launchUrl": "swagger",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

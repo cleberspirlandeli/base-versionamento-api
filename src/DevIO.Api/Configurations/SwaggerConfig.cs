@@ -51,7 +51,8 @@ namespace DevIO.Api.Configuration
 
         public static IApplicationBuilder UseSwaggerConfig(this IApplicationBuilder app, IApiVersionDescriptionProvider provider)
         {
-            //app.UseMiddleware<SwaggerAuthorizedMiddleware>();
+            
+            app.UseMiddleware<SwaggerAuthorizedMiddleware>();
             app.UseSwagger();
             app.UseSwaggerUI(
                 options =>
@@ -149,14 +150,24 @@ namespace DevIO.Api.Configuration
 
         public async Task Invoke(HttpContext context)
         {
-            if (context.Request.Path.StartsWithSegments("/swagger")
-                && !context.User.Identity.IsAuthenticated)
+            if (IsProduction())
             {
-                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
-                return;
+                if (context.Request.Path.StartsWithSegments("/swagger")
+                    && !context.User.Identity.IsAuthenticated)
+                {
+                    context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+
+                    // TODO - Redirect para url de login
+                    return;
+                }
             }
 
             await _next.Invoke(context);
+        }
+
+        private bool IsProduction()
+        {
+            return Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production";
         }
     }
 }
