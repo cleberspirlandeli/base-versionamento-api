@@ -6,6 +6,8 @@
 
 https://rzn-versionamento-api-demo.azurewebsites.net/swagger/index.html
 
+OBS: O primeiro acesso demora um tempinho para ser carregado, plano free :smile:
+
 <br/>
 <br/>
 
