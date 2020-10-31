@@ -60,13 +60,14 @@ namespace DevIO.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseCors("Development");
             }
             else
             {
                 app.UseHsts();
                 app.UseCors("Production");
             }
+
+            app.UseDeveloperExceptionPage();
 
             app.UseAuthentication();
 
