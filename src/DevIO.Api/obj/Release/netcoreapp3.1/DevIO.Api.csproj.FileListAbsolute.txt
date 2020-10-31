@@ -9,9 +9,6 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Dev
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\DevIO.Api.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\DevIO.Api.pdb
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\HealthChecks.SqlServer.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\HealthChecks.UI.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\HealthChecks.UI.Client.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\HealthChecks.UI.Core.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\AutoMapper.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Elmah.Io.AspNetCore.dll
@@ -19,8 +16,6 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Elm
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Elmah.Io.Client.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Elmah.Io.Extensions.Logging.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\FluentValidation.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Fractions.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\KubernetesClient.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -41,15 +36,10 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Mic
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Data.Sqlite.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
@@ -58,13 +48,11 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Mic
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Http.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -90,11 +78,6 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Mic
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\SQLitePCLRaw.core.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -109,8 +92,6 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Sys
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\System.Text.Json.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\YamlDotNet.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -168,18 +149,6 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\run
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
-C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
@@ -200,3 +169,7 @@ C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Release\netcoreapp3.1\sta
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Release\netcoreapp3.1\DevIO.Api.dll
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Release\netcoreapp3.1\DevIO.Api.pdb
 C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\obj\Release\netcoreapp3.1\DevIO.Api.genruntimeconfig.cache
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Properties\serviceDependencies.rzn-versionamento-api-demo - Web Deploy.json
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\rzn-versionamento-api-demo - Web Deploy\mssql1.arm.json
+C:\Projetos\dotnet\versionamento-api\src\DevIO.Api\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\rzn-versionamento-api-demo - Web Deploy\profile.arm.json
