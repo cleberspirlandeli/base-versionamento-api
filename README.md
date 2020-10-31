@@ -34,6 +34,12 @@ Objetivo:
 ## Frameworks e Packages
 - EntityFramework
 - Elmah.io
+- FluentValidation
+- Authentication JwtBearer
+- Identity
+- Api Version
+- AutoMapper
+- HealthChecks
 
 <br/>
 <br/>
